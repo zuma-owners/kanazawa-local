@@ -2,7 +2,7 @@
 # レイアウト確認用のサンプル（draft: true なので本番サイトには出ません。npm run dev のときだけ表示）
 title: "Sample Bar in Katamachi: A Layout Check"
 subtitle: "This is a sample article used to check how a bar review looks. It is not a real place."
-description: "Layout sample for Kanazawa After Dark. This draft is never published and only exists to check how a full bar article, table and links look on screen."
+description: "Layout sample for Kanazawa Local. This draft is never published and only exists to check how a full bar article, table and links look on screen."
 pubDate: 2026-11-12
 area: katamachi
 category: nightlife

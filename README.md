@@ -1,4 +1,4 @@
-# Kanazawa After Dark
+# Kanazawa Local
 
 金沢在住の英語コーチ ZUMA が、実際に通っている「英語でも楽しめる夜の金沢」を紹介する英語メディア。
 Astro（静的サイト）＋ Markdown で記事を管理し、Cloudflare Pages で公開する。

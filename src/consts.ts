@@ -1,7 +1,7 @@
 // サイト全体の設定。SNSやドメインが決まったらここを書き換えるだけで全ページに反映される。
 
 export const SITE_URL = 'https://kanazawa-after-dark.pages.dev';
-export const SITE_TITLE = 'Kanazawa After Dark';
+export const SITE_TITLE = 'Kanazawa Local';
 export const SITE_TAGLINE = 'Kanazawa, explained by a local English coach: what to eat, where to go at night, and the Japanese you actually need.';
 export const SITE_DESCRIPTION =
 	'A local guide to Kanazawa for travelers: food, nightlife, seasons, getting around and simple Japanese, from an English coach who lives here.';
