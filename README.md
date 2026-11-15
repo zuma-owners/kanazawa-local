@@ -3,7 +3,7 @@
 金沢在住の英語コーチ ZUMA が、実際に通っている「英語でも楽しめる夜の金沢」を紹介する英語メディア。
 Astro（静的サイト）＋ Markdown で記事を管理し、Cloudflare Pages で公開する。
 
-- 公開URL（仮）：https://kanazawa-after-dark.pages.dev
+- 公開URL（仮）：https://kanazawa-local.pages.dev
 - 運営：合同会社OWNERS
 - 取材メモ・写真・管理表は **このリポジトリの外**（公開リポジトリのため）
   - `Desktop/Claud code/kanazawa-night-memos/取材メモ/`（1店舗1ファイル、`_テンプレート.md` をコピーして使う）
@@ -87,7 +87,7 @@ git commit -m "Add article: <店名>"
 git push origin main # → Cloudflare Pages が自動でビルドして公開（1〜2分）
 ```
 
-公開後は `https://kanazawa-after-dark.pages.dev/articles/<slug>/` を開いて表示を確認する。
+公開後は `https://kanazawa-local.pages.dev/articles/<slug>/` を開いて表示を確認する。
 
 ## Medium への転載
 
@@ -97,11 +97,11 @@ git push origin main # → Cloudflare Pages が自動でビルドして公開（
 
 ## Cloudflare Pages の設定（初回だけ）
 
-Cloudflare ダッシュボード → Workers & Pages → Create → Pages → Connect to Git → `kanazawa-after-dark` を選び：
+Cloudflare ダッシュボード → Workers & Pages → Create → Pages → Connect to Git → `kanazawa-local` を選び：
 
 - Framework preset：Astro
 - Build command：`npm run build`
 - Build output directory：`dist`
 - Node のバージョンはリポジトリの `.node-version`（24）が自動で使われる
 
-プロジェクト名を `kanazawa-after-dark` にすると URL が `kanazawa-after-dark.pages.dev` になる（取られていて別名になったら `SITE_URL` を2か所直す）。
+プロジェクト名を `kanazawa-local` にすると URL が `kanazawa-local.pages.dev` になる（取られていて別名になったら `SITE_URL` を2か所直す）。

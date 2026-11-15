@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig, fontProviders } from 'astro/config';
 
 // 独自ドメインが決まったら、ここと src/consts.ts の SITE_URL を書き換える
-const SITE_URL = 'https://kanazawa-after-dark.pages.dev';
+const SITE_URL = 'https://kanazawa-local.pages.dev';
 
 export default defineConfig({
 	site: SITE_URL,
