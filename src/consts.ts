@@ -8,7 +8,7 @@ export const SITE_DESCRIPTION =
 export const AUTHOR = 'ZUMA';
 export const CONTACT_EMAIL = 'info.zuma.owners@gmail.com';
 export const AUTHOR_FULL = 'Kazumasa Matsuda (ZUMA)';
-export const SCHOOL = { name: 'Regrandir English School', url: 'https://regrandir.com/' };
+export const SCHOOL = { name: 'Regrandir English', url: 'https://regrandir.com/' };
 
 export type Category = { slug: string; name: string; blurb: string };
 // 記事のジャンル。frontmatter の category にこの slug を書く。/topics/<slug>/ に一覧ページができる。
