@@ -5,6 +5,7 @@ title: "3 Local Cafés in Kanazawa Where You Can Order in English"
 subtitle: "Small, independent places I actually go to, starting with a record café on the fifth floor."
 description: "Three independent cafés in Kanazawa where ordering in English is easy, chosen by a local English coach. First up: Kissa Bongo, a fifth-floor record café."
 pubDate: 2026-11-13
+category: eat-drink
 tags: ["cafe", "local favorites"]
 heroImage: "../../assets/articles/kanazawa-local-cafes-english/2026-11-13-bongo-01.webp"
 heroAlt: "Inside Kissa Bongo: wicker armchairs by tall windows, a long dark counter with bar stools, and shelves of vinyl records under a green ceiling"

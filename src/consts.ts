@@ -2,11 +2,25 @@
 
 export const SITE_URL = 'https://kanazawa-after-dark.pages.dev';
 export const SITE_TITLE = 'Kanazawa After Dark';
-export const SITE_TAGLINE = 'English-friendly bars, izakaya and late nights in Kanazawa, from a local who actually goes.';
+export const SITE_TAGLINE = 'Kanazawa, explained by a local English coach: what to eat, where to go at night, and the Japanese you actually need.';
 export const SITE_DESCRIPTION =
-	'Kanazawa nightlife for travelers: English-friendly bars and izakaya I have personally visited, with honest notes on menus, prices and how to order.';
+	'A local guide to Kanazawa for travelers: food, nightlife, seasons, getting around and simple Japanese, from an English coach who lives here.';
 export const AUTHOR = 'ZUMA';
 export const CONTACT_EMAIL = 'info.zuma.owners@gmail.com';
+export const AUTHOR_FULL = 'Kazumasa Matsuda (ZUMA)';
+export const SCHOOL = { name: 'Regrandir English School', url: 'https://regrandir.com/' };
+
+export type Category = { slug: string; name: string; blurb: string };
+// 記事のジャンル。frontmatter の category にこの slug を書く。/topics/<slug>/ に一覧ページができる。
+export const CATEGORIES: Category[] = [
+	{ slug: 'plan', name: 'Plan Your Trip', blurb: 'Getting here, getting around, how many days, and what to know before you arrive.' },
+	{ slug: 'eat-drink', name: 'Eat & Drink', blurb: 'Seafood, oden, sake, cafés and how ordering actually works.' },
+	{ slug: 'nightlife', name: 'Nightlife', blurb: 'Bars, izakaya and the districts where Kanazawa goes out.' },
+	{ slug: 'things-to-do', name: 'Things to Do', blurb: 'Gardens, old streets, museums and day trips, with local timing tips.' },
+	{ slug: 'seasons', name: 'Seasons & Events', blurb: 'Crab season, snow, cherry blossoms and what is on this month.' },
+	{ slug: 'japanese', name: 'Useful Japanese', blurb: 'Short phrases that make restaurants, shops and taxis easier.' },
+];
+export const categoryBySlug = (slug?: string) => CATEGORIES.find((c) => c.slug === slug);
 
 // SNS が決まったら url を入れる（例: 'https://www.instagram.com/xxxx/'）。null のあいだはフォロー導線は SNS リンクなしで表示される。
 export const SOCIAL: { label: string; url: string | null } = {

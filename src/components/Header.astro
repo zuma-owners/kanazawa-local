@@ -2,8 +2,10 @@
 import { SITE_TITLE } from '../consts';
 
 const links = [
-	{ href: '/articles/', label: 'Articles' },
-	{ href: '/guide/', label: 'Guide' },
+	{ href: '/topics/plan/', label: 'Plan' },
+	{ href: '/topics/eat-drink/', label: 'Eat & Drink' },
+	{ href: '/topics/nightlife/', label: 'Nightlife' },
+	{ href: '/articles/', label: 'All' },
 	{ href: '/about/', label: 'About' },
 ];
 const path = Astro.url.pathname;
@@ -62,13 +64,16 @@ const path = Astro.url.pathname;
 	}
 	nav {
 		display: flex;
-		gap: 0.25rem;
+		gap: 0.1rem;
+		overflow-x: auto;
+		max-width: 100%;
 	}
 	nav a {
 		color: var(--muted);
 		text-decoration: none;
-		font-size: 0.95rem;
-		padding: 0.4rem 0.6rem;
+		font-size: 0.92rem;
+		padding: 0.4rem 0.5rem;
+		white-space: nowrap;
 		border-radius: 6px;
 	}
 	nav a:hover,

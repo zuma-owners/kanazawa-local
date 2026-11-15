@@ -5,7 +5,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import FollowCta from '../../components/FollowCta.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import PracticalInfo from '../../components/PracticalInfo.astro';
-import { AUTHOR, SITE_TITLE, SITE_URL, areaBySlug } from '../../consts';
+import { AUTHOR, AUTHOR_FULL, SITE_TITLE, SITE_URL, areaBySlug, categoryBySlug } from '../../consts';
 import Base from '../../layouts/Base.astro';
 import { type Article, getArticles, placesOf, relatedArticles, slugOf, urlOf } from '../../lib/articles';
 
@@ -22,6 +22,7 @@ const { article, all } = Astro.props;
 const d = article.data;
 const { Content } = await render(article);
 const area = areaBySlug(d.area);
+const cat = categoryBySlug(d.category);
 const related = relatedArticles(article, all, 2);
 const url = new URL(urlOf(article), SITE_URL).href;
 const places = placesOf(article);
@@ -35,13 +36,24 @@ const jsonLd: object[] = [
 		description: d.description,
 		datePublished: d.pubDate.toISOString(),
 		dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
-		author: { '@type': 'Person', name: AUTHOR, url: new URL('/about/', SITE_URL).href },
+		author: { '@type': 'Person', name: AUTHOR_FULL, alternateName: AUTHOR, url: new URL('/about/', SITE_URL).href },
 		publisher: { '@type': 'Organization', name: SITE_TITLE, url: SITE_URL },
 		mainEntityOfPage: url,
 		inLanguage: 'en',
 		...(places.length ? { about: places.map((p) => ({ '@type': p.type, name: p.name })) } : {}),
 	},
 ];
+if (cat) {
+	jsonLd.push({
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+			{ '@type': 'ListItem', position: 2, name: cat.name, item: new URL(`/topics/${cat.slug}/`, SITE_URL).href },
+			{ '@type': 'ListItem', position: 3, name: d.title, item: url },
+		],
+	});
+}
 const unverified = (v?: string) => !v || /unverified/i.test(v);
 for (const p of places) {
 	jsonLd.push({
@@ -62,7 +74,11 @@ for (const p of places) {
 <Base title={d.title} description={d.description} image={d.heroImage} type="article" jsonLd={jsonLd}>
 	<article class="prose">
 		<header class="head">
-			<p class="eyebrow">{area ? `${area.name} · ${area.ja}` : 'Kanazawa'}</p>
+			<p class="eyebrow">
+					{cat && <a href={`/topics/${cat.slug}/`}>{cat.name}</a>}
+					{cat && ' · '}
+					{area ? `${area.name} · ${area.ja}` : 'Kanazawa'}
+				</p>
 			<h1>{d.title}</h1>
 			<p class="subtitle">{d.subtitle}</p>
 			<p class="meta small muted">

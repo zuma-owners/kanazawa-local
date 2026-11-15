@@ -1,0 +1,61 @@
+---
+import ArticleCard from '../../components/ArticleCard.astro';
+import { CATEGORIES, type Category, SITE_TITLE, SITE_URL } from '../../consts';
+import Base from '../../layouts/Base.astro';
+import { type Article, getArticles, urlOf } from '../../lib/articles';
+
+// ジャンル別の一覧ページ（/topics/plan/ など）。記事の frontmatter の category で振り分ける。
+export async function getStaticPaths() {
+	const all = await getArticles();
+	return CATEGORIES.map((cat) => ({ params: { slug: cat.slug }, props: { cat, items: all.filter((a) => a.data.category === cat.slug) } }));
+}
+interface Props {
+	cat: Category;
+	items: Article[];
+}
+const { cat, items } = Astro.props;
+const url = new URL(`/topics/${cat.slug}/`, SITE_URL).href;
+const jsonLd = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: `${cat.name}: Kanazawa`,
+		description: cat.blurb,
+		url,
+		isPartOf: { '@type': 'WebSite', name: SITE_TITLE, url: SITE_URL },
+		mainEntity: {
+			'@type': 'ItemList',
+			itemListElement: items.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: new URL(urlOf(a), SITE_URL).href, name: a.data.title })),
+		},
+	},
+];
+---
+
+<Base title={`${cat.name} in Kanazawa`} description={`${cat.blurb} A local's guide to Kanazawa for travelers.`} jsonLd={jsonLd}>
+	<p class="eyebrow">Kanazawa · Topic</p>
+	<h1>{cat.name}</h1>
+	<p class="muted lead">{cat.blurb}</p>
+	<nav class="topics" aria-label="Topics">
+		{CATEGORIES.map((c) => <a href={`/topics/${c.slug}/`} aria-current={c.slug === cat.slug ? 'page' : undefined}>{c.name}</a>)}
+	</nav>
+	{cat.slug === 'nightlife' && (
+		<p class="muted">Looking for specific bars? The <a href="/guide/">Kanazawa Nightlife Guide</a> lists every place I have visited, by area.</p>
+	)}
+	{
+		items.length > 0 ? (
+			<div class="grid">{items.map((a, i) => <ArticleCard article={a} eager={i < 2} />)}</div>
+		) : (
+			<p class="muted">The first articles for this topic are on the way. Meanwhile, see <a href="/articles/">all articles</a>.</p>
+		)
+	}
+</Base>
+
+<style>
+	.lead { margin: 0 0 1rem; }
+	.topics { display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.3rem; margin-bottom: 1.25rem; }
+	.topics a {
+		flex: none; font-size: 0.85rem; color: var(--muted); text-decoration: none;
+		border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.8rem; background: var(--surface);
+	}
+	.topics a[aria-current='page'] { color: var(--bg); background: var(--accent); border-color: var(--accent); font-weight: 700; }
+</style>

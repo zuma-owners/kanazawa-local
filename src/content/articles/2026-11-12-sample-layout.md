@@ -5,6 +5,7 @@ subtitle: "This is a sample article used to check how a bar review looks. It is 
 description: "Layout sample for Kanazawa After Dark. This draft is never published and only exists to check how a full bar article, table and links look on screen."
 pubDate: 2026-11-12
 area: katamachi
+category: nightlife
 tags: ["bar", "sample"]
 heroImage: "../../assets/articles/sample-layout/hero.webp"
 heroAlt: "Placeholder image used for checking the article layout"

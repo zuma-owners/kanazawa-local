@@ -4,6 +4,7 @@ subtitle: "A first-timer's map of the city's nightlife districts, how to get the
 description: "Where to go out at night in Kanazawa: a simple English guide to Katamachi, Kiguramachi, Korinbo and Kakinokibatake, and how to get there from the station."
 pubDate: 2026-11-15
 area: katamachi
+category: nightlife
 tags: ["guide", "getting around", "first time"]
 ---
 

@@ -1,42 +1,68 @@
 ---
-import { SITE_TITLE, SITE_URL, SOCIAL } from '../consts';
+import { AUTHOR_FULL, SCHOOL, SITE_TITLE, SITE_URL, SOCIAL } from '../consts';
 import Base from '../layouts/Base.astro';
 
 const jsonLd = [
 	{
 		'@context': 'https://schema.org',
 		'@type': 'Person',
-		name: 'ZUMA',
+		name: AUTHOR_FULL,
+		alternateName: 'ZUMA',
 		jobTitle: 'English coach',
-		homeLocation: { '@type': 'Place', name: 'Kanazawa, Ishikawa, Japan' },
+		worksFor: { '@type': 'EducationalOrganization', name: SCHOOL.name, url: SCHOOL.url },
+		homeLocation: { '@type': 'Place', name: 'Nonoichi, Ishikawa, Japan' },
 		url: new URL('/about/', SITE_URL).href,
-		...(SOCIAL.url ? { sameAs: [SOCIAL.url] } : {}),
+		sameAs: [SCHOOL.url, ...(SOCIAL.url ? [SOCIAL.url] : [])],
 	},
 ];
 ---
 
 <Base
 	title="About ZUMA"
-	description="I'm ZUMA, an English coach living in Kanazawa. I studied in the Philippines and Australia, and I write about the Kanazawa nights I actually enjoy."
+	description="I'm ZUMA (Kazumasa Matsuda), an English coach running a small school next to Kanazawa. Here is who I am and how I write this guide to the city."
 	jsonLd={jsonLd}
 >
 	<div class="prose">
 		<p class="eyebrow">About</p>
 		<h1>Hi, I'm ZUMA.</h1>
 		<p>
-			I live in Kanazawa and work as an English coach. Before that, I studied abroad in the Philippines and in Australia, and
-			those years taught me how much a good local friend matters when you are in a new country: someone who can tell you where
-			to go, what to order, and what to expect when you walk through the door.
+			My name is Kazumasa Matsuda, but everyone calls me ZUMA. I run
+			<a href={SCHOOL.url} rel="noopener">{SCHOOL.name}</a> in Nonoichi, the city right next to Kanazawa, where I have been
+			teaching English for about six years. Most of my students are complete beginners, and my whole approach is learning
+			English by actually using it.
+		</p>
+
+		<h2>How I got here</h2>
+		<p>
+			I didn't grow up loving English. I worked in a factory for about three years. Then, on a company trip to Hawaii, I tried
+			speaking English and people understood me. That small moment made English interesting to me for the first time.
 		</p>
 		<p>
-			{SITE_TITLE} is my attempt to be that friend for people visiting Kanazawa. I want to connect the people who live here with
-			the people who come from overseas, and the easiest place to start is often a bar counter or an izakaya table.
+			I went on to study in the Philippines for three months, then spent about eleven months in Australia on a working holiday:
+			around nine months in Melbourne and three in Brisbane. In Melbourne, chatting with the staff at a station kiosk led to a
+			job as a barista. In Brisbane I did farm work.
 		</p>
+		<p>
+			What I took home from those years was not grammar. It was how much easier a new country becomes when a local shows you
+			around. When I came back to Japan, I started teaching English for free or for a coin, and that is how my school began.
+		</p>
+
+		<h2>Why this site</h2>
+		<p>
+			My school also holds an international exchange event about once a month, where local people and people from overseas
+			meet and talk. My work has always been about using a language to connect people, and this site is the same idea
+			pointed the other way: helping visitors connect with Kanazawa.
+		</p>
+		<p>
+			{SITE_TITLE} covers the things a traveler actually needs: what to eat and when, where to go at night, how to get
+			around, and the few words of Japanese that make it all easier. All of it in English, from someone who lives here.
+		</p>
+
 		<h2>How I write these articles</h2>
 		<ul>
-			<li>I only write about places I have visited myself.</li>
-			<li>I describe what I ordered, what it cost, and how easy it was to get by in English.</li>
-			<li>Opening hours and addresses are checked online. Anything I could not confirm is marked "(unverified)".</li>
+			<li>When I recommend a bar, café or restaurant, it is a place I have visited myself, and the owner is happy to be featured.</li>
+			<li>Practical guides (seasons, transport, sightseeing) are based on official and local sources I have checked.</li>
+			<li>Opening hours and prices change often in Japan. Anything I could not confirm is marked "(unverified)".</li>
 			<li>Nobody pays to be on this site.</li>
 		</ul>
 		<p>

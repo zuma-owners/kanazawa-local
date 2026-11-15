@@ -1,23 +1,25 @@
 ---
 import ArticleCard from '../components/ArticleCard.astro';
-import { AREAS, SITE_DESCRIPTION, SITE_TAGLINE, SITE_TITLE, SITE_URL } from '../consts';
+import { AREAS, CATEGORIES, SITE_DESCRIPTION, SITE_TAGLINE, SITE_TITLE, SITE_URL } from '../consts';
 import Base from '../layouts/Base.astro';
 import { getArticles } from '../lib/articles';
 
 const articles = await getArticles();
 const latest = articles.slice(0, 6);
 const count = (slug: string) => articles.filter((a) => a.data.area === slug).length;
+const catCount = (slug: string) => articles.filter((a) => a.data.category === slug).length;
 const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_TITLE, url: SITE_URL, inLanguage: 'en' }];
 ---
 
 <Base title={SITE_TITLE} description={SITE_DESCRIPTION} jsonLd={jsonLd}>
 	<section class="intro">
 		<p class="eyebrow">Kanazawa, Japan</p>
-		<h1>Where to drink in Kanazawa, in English.</h1>
+		<h1>Kanazawa, from someone who lives here.</h1>
 		<p class="tag">{SITE_TAGLINE}</p>
 		<p class="muted">
-			I'm ZUMA, an English coach living in Kanazawa. Every place here is somewhere I have been myself, with notes on how
-			easy it is to order in English. <a href="/about/">More about me</a>.
+			I'm ZUMA, an English coach based just outside Kanazawa. I write the things visitors ask me about: what to eat, where
+			to go after dark, what is in season, and how to get by when the menu is only in Japanese. Places I recommend are
+			places I have been to myself. <a href="/about/">More about me</a>.
 		</p>
 	</section>
 
@@ -39,9 +41,28 @@ const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SI
 		}
 	</section>
 
+	<section aria-labelledby="topics">
+		<div class="sec-head">
+			<h2 id="topics">Browse by topic</h2>
+		</div>
+		<ul class="areas">
+			{
+				CATEGORIES.map((c) => (
+					<li>
+						<a href={`/topics/${c.slug}/`}>
+							<span class="an">{c.name}</span>
+							<span class="ab">{c.blurb}</span>
+							<span class="ac">{catCount(c.slug) === 1 ? '1 article' : `${catCount(c.slug)} articles`}</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
 	<section aria-labelledby="areas">
 		<div class="sec-head">
-			<h2 id="areas">Explore by area</h2>
+			<h2 id="areas">Nightlife by area</h2>
 			<a href="/guide/">Nightlife Guide →</a>
 		</div>
 		<ul class="areas">

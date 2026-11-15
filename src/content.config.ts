@@ -34,6 +34,8 @@ const articles = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			area: z.string().optional(),
+			// 記事のジャンル（src/consts.ts の CATEGORIES の slug）
+			category: z.enum(['plan', 'eat-drink', 'nightlife', 'things-to-do', 'seasons', 'japanese']).optional(),
 			tags: z.array(z.string()).default([]),
 			heroImage: image().optional(),
 			heroAlt: z.string().optional(),

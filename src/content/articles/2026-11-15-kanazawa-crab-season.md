@@ -3,6 +3,7 @@ title: "Crab Season in Kanazawa: Kano-gani and Kobako-gani, Explained"
 subtitle: "Why the whole city gets excited in early November, the difference between the two crabs, and what to look for on a menu."
 description: "Kanazawa's winter crab season explained in English: Kano-gani and Kobako-gani, when each is in season, the blue tag, and the crab-in-oden dish called kani-men."
 pubDate: 2026-11-15
+category: seasons
 tags: ["guide", "seasonal", "seafood", "winter"]
 ---
 

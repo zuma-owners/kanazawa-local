@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import { areaBySlug } from '../consts';
+import { areaBySlug, categoryBySlug } from '../consts';
 import { type Article, urlOf } from '../lib/articles';
 import FormattedDate from './FormattedDate.astro';
 
@@ -11,9 +11,10 @@ interface Props {
 const { article, eager = false } = Astro.props;
 const d = article.data;
 const area = areaBySlug(d.area);
+const cat = categoryBySlug(d.category);
 ---
 
-<article class="card" data-area={d.area ?? ''} data-tags={d.tags.join(',')}>
+<article class="card" data-area={d.area ?? ''} data-tags={d.tags.join(',')} data-cat={d.category ?? ''}>
 	<a href={urlOf(article)} class="card-link">
 		{
 			d.heroImage ? (
@@ -32,7 +33,7 @@ const area = areaBySlug(d.area);
 		}
 		<div class="body">
 			<p class="meta">
-				{area && <span class="area">{area.name}</span>}
+				{(cat || area) && <span class="area">{cat ? cat.name : area?.name}</span>}
 				<FormattedDate date={d.pubDate} />
 				{d.draft && <span class="draft">DRAFT</span>}
 			</p>

@@ -3,6 +3,7 @@ title: "How to Order at an Izakaya in Kanazawa: The Japanese You Actually Need"
 subtitle: "Ten short phrases, what that small dish you never ordered is, and how paying works. From an English coach who teaches this stuff for a living."
 description: "A practical guide to ordering at an izakaya in Kanazawa: ten simple Japanese phrases, what otoshi is, how to get the bill, and why you never need to tip."
 pubDate: 2026-11-15
+category: eat-drink
 tags: ["guide", "izakaya", "japanese phrases"]
 ---
 
