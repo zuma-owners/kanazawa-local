@@ -1,0 +1,124 @@
+---
+// ツアー販売ページの【下書き】。開発サーバー（npm run dev）でだけ /tours/ に表示され、本番ビルドには含まれない。
+// 公開するときは、TBD をすべて決めてから、このファイルを src/pages/tours.astro に移す（getStaticPaths を消す）。
+// 決済・予約システムは作らない。申込はメールだけ。
+import { CONTACT_EMAIL, SCHOOL, SITE_TITLE, SITE_URL } from '../consts';
+import Base from '../layouts/Base.astro';
+
+export function getStaticPaths() {
+	return import.meta.env.PROD ? [] : [{ params: { tour: 'tours' } }];
+}
+
+const tbd = 'TBD';
+const facts: [string, string][] = [
+	['Duration', tbd],
+	['Price', tbd],
+	['Group size', tbd],
+	['Meeting point', tbd],
+	['Language', 'English (and Japanese, if you want to practice)'],
+	['What is included', tbd],
+	['Cancellation', tbd],
+	['Payment', tbd],
+	['Insurance', tbd],
+];
+const mail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Kanazawa Local tour request')}`;
+---
+
+<Base
+	title="Explore Kanazawa with a Local (Draft)"
+	description="Walk Kanazawa with ZUMA, a local English coach: the city's food and nightlife streets, how to order in Japanese, and places visitors usually miss."
+>
+	<div class="prose">
+		<p class="draft-note">DRAFT · not published · items marked TBD are not decided yet</p>
+		<p class="eyebrow">Tours</p>
+		<h1>Explore Kanazawa with a Local</h1>
+		<p class="subtitle">A small, relaxed walk with ZUMA, the English coach who writes {SITE_TITLE}.</p>
+
+		<p>
+			Most guided tours in Kanazawa show you the same famous sights. This one is about how the city actually works: where
+			locals eat and drink, how to read a Japanese menu, and the handful of phrases that make the rest of your trip easier.
+		</p>
+
+		<h2>Who you'll be walking with</h2>
+		<p>
+			I'm ZUMA. I run <a href={SCHOOL.url} rel="noopener">{SCHOOL.name}</a> in Nonoichi, right next to Kanazawa, and I have
+			been teaching English for about six years. I studied in the Philippines and lived in Australia on a working holiday, so I
+			know what it feels like to be the visitor who can't read the menu. <a href="/about/">More about me</a>.
+		</p>
+
+		<h2>What we'll do</h2>
+		<p class="tbd-block">TBD: route and contents. Ideas to decide between:</p>
+		<ul>
+			<li>An evening walk through Korinbo, Kiguramachi and Katamachi, the area covered in my <a href="/articles/kanazawa-nightlife-areas/">nightlife guide</a>.</li>
+			<li>A short "ordering in Japanese" session on the way, using the phrases from my <a href="/articles/izakaya-english-kanazawa/">izakaya guide</a>.</li>
+			<li>A stop at a place I have written about, where the owner is happy to welcome visitors.</li>
+		</ul>
+
+		<h2>The details</h2>
+		<table class="facts">
+			<tbody>
+				{
+					facts.map(([k, v]) => (
+						<tr>
+							<th scope="row">{k}</th>
+							<td class={v === tbd ? 'tbd' : undefined}>{v}</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+
+		<h2>How to request a date</h2>
+		<p>
+			Email me with your preferred date, the number of people, and anything you'd like to see. I'll reply to confirm whether
+			the date works. Nothing is booked or paid until we have agreed on the details by email.
+		</p>
+		<p class="mail"><a href={mail}>{CONTACT_EMAIL}</a></p>
+
+		<p class="muted small">
+			Prefer to explore on your own? Everything I know is free on this site. Start with
+			<a href="/articles/kanazawa-first-time-itinerary/">Kanazawa for First-Timers</a>, or meet locals at my school's
+			<a href="/articles/meet-locals-kanazawa/">monthly exchange event</a>.
+		</p>
+	</div>
+</Base>
+
+<style>
+	.draft-note {
+		background: #6b2a2a;
+		color: #fff;
+		padding: 0.4rem 0.7rem;
+		border-radius: 6px;
+		font-size: 0.85rem;
+		font-weight: 700;
+	}
+	.subtitle {
+		font-size: 1.15rem;
+		color: var(--muted);
+	}
+	.facts {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	.facts th,
+	.facts td {
+		text-align: left;
+		padding: 0.5rem 0.4rem;
+		border-bottom: 1px solid var(--line);
+		vertical-align: top;
+	}
+	.facts th {
+		width: 38%;
+		color: var(--muted);
+		font-weight: 600;
+	}
+	.tbd,
+	.tbd-block {
+		color: #f0a35c;
+		font-weight: 700;
+	}
+	.mail {
+		font-size: 1.1rem;
+		word-break: break-all;
+	}
+</style>
