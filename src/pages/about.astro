@@ -1,5 +1,7 @@
 ---
+import { Image } from 'astro:assets';
 import { AUTHOR_FULL, SCHOOL, SITE_TITLE, SITE_URL, SOCIAL } from '../consts';
+import photo from '../assets/about/zuma.webp';
 import Base from '../layouts/Base.astro';
 
 const jsonLd = [
@@ -9,6 +11,7 @@ const jsonLd = [
 		name: AUTHOR_FULL,
 		alternateName: 'ZUMA',
 		jobTitle: 'English coach',
+		image: new URL(photo.src, SITE_URL).href,
 		worksFor: { '@type': 'EducationalOrganization', name: SCHOOL.name, url: SCHOOL.url },
 		homeLocation: { '@type': 'Place', name: 'Nonoichi, Ishikawa, Japan' },
 		url: new URL('/about/', SITE_URL).href,
@@ -19,12 +22,24 @@ const jsonLd = [
 
 <Base
 	title="About ZUMA"
+	image={photo}
 	description="I'm ZUMA (Kazumasa Matsuda), an English coach running a small school next to Kanazawa. Here is who I am and how I write this guide to the city."
 	jsonLd={jsonLd}
 >
 	<div class="prose">
 		<p class="eyebrow">About</p>
 		<h1>Hi, I'm ZUMA.</h1>
+		<figure class="portrait">
+			<Image
+				src={photo}
+				alt="ZUMA in a white T-shirt, standing with arms folded in Times Square, New York"
+				widths={[360, 560]}
+				sizes="(min-width: 620px) 280px, 70vw"
+				format="webp"
+				quality={78}
+				loading="eager"
+			/>
+		</figure>
 		<p>
 			My name is Kazumasa Matsuda, but everyone calls me ZUMA. I run
 			<a href={SCHOOL.url} rel="noopener">{SCHOOL.name}</a> in Nonoichi, the city right next to Kanazawa, where I have been
@@ -70,3 +85,16 @@ const jsonLd = [
 		</p>
 	</div>
 </Base>
+
+<style>
+	.portrait {
+		margin: 0 0 1.5rem;
+		max-width: 280px;
+	}
+	.portrait img {
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 12px;
+	}
+</style>
