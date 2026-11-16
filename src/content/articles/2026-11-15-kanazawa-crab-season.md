@@ -84,7 +84,7 @@ Nobody will think it's rude. Locals ask too.
 ## A few practical tips
 
 - **Come early in the season for Kobako-gani.** November and December only.
-- **Rough weather means less crab.** If the sea has been stormy for a few days, menus get shorter.
+- **Rough weather means less crab.** If the sea has been stormy for a few days, menus get shorter. For what to pack for the wet winter weather, see my [Kanazawa winter guide](/articles/kanazawa-winter-guide/).
 - **Ask what's good today.** *Osusume wa nan desu ka?* ("What do you recommend?") works especially well in crab season. You'll find more phrases like this in my [izakaya ordering guide](/articles/izakaya-english-kanazawa/).
 
 For places I have actually been to, with English notes and prices, see the [Kanazawa Nightlife Guide](/guide/).
