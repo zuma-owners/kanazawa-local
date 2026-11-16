@@ -1,6 +1,6 @@
 // サイト全体の設定。SNSやドメインが決まったらここを書き換えるだけで全ページに反映される。
 
-export const SITE_URL = 'https://kanazawa-local.pages.dev';
+export const SITE_URL = 'https://kanazawa-local.com';
 export const SITE_TITLE = 'Kanazawa Local';
 export const SITE_TAGLINE = 'Kanazawa, explained by a local English coach: what to eat, where to go at night, and the Japanese you actually need.';
 export const SITE_DESCRIPTION =

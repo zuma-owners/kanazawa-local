@@ -3,7 +3,7 @@
 金沢在住の英語コーチ ZUMA が、実際に通っている「英語でも楽しめる夜の金沢」を紹介する英語メディア。
 Astro（静的サイト）＋ Markdown で記事を管理し、Cloudflare Pages で公開する。
 
-- 公開URL（仮）：https://kanazawa-local.pages.dev
+- 公開URL：https://kanazawa-local.com （2026-11-16 独自ドメイン。kanazawa-local.pages.dev は functions/_middleware.js で 301 転送）
 - 運営：合同会社OWNERS
 - 取材メモ・写真・管理表は **このリポジトリの外**（公開リポジトリのため）
   - `Desktop/Claud code/kanazawa-night-memos/取材メモ/`（1店舗1ファイル、`_テンプレート.md` をコピーして使う）
@@ -87,7 +87,7 @@ git commit -m "Add article: <店名>"
 git push origin main # → Cloudflare Pages が自動でビルドして公開（1〜2分）
 ```
 
-公開後は `https://kanazawa-local.pages.dev/articles/<slug>/` を開いて表示を確認する。
+公開後は `https://kanazawa-local.com/articles/<slug>/` を開いて表示を確認する。
 
 ## Medium への転載
 
