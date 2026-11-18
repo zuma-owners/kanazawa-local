@@ -65,6 +65,7 @@ Use the two-day plan, then make day three a day trip.
 
 - **Book the bus early** in busy seasons, especially in winter, when the snowy village is at its most famous.
 - **Luggage is a problem.** There is very little space to store bags in the village. If you are moving on after Shirakawa-go, plan where your suitcase will be.
+- My [Shirakawa-go day trip guide](/articles/shirakawa-go-day-trip/) covers the bus, booking and luggage in detail.
 
 If you prefer to stay in the city, a slower third day works well too: go back to the places you liked, spend more time in the museum, or simply have a long lunch and a second night out.
 

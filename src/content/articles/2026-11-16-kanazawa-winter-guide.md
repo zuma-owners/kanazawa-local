@@ -76,7 +76,7 @@ I think so, as long as you come prepared. Here is the honest trade-off.
 - **Delays on snowy days**, especially on buses and on day trips into the mountains.
 - **Short days**, so fewer hours of daylight for walking around.
 
-If you are planning a day trip to the snowy villages of Shirakawa-go, book the bus early. Winter is the most popular season there.
+If you are planning a day trip to the snowy villages of Shirakawa-go, book the bus early. Winter is the most popular season there. My [Shirakawa-go day trip guide](/articles/shirakawa-go-day-trip/) explains how.
 
 ## Say it in Japanese: winter phrases
 
