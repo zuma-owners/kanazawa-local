@@ -28,7 +28,7 @@ DUMBO is a neighborhood in Brooklyn, New York. Cafe Dumbo is a small café on Se
 
 ![The front of Cafe Dumbo: a red brick wall, a large window with "CAFE DUMBO COFFEE" painted on it, plants below and a wooden bench by the door](../../assets/articles/cafe-dumbo-kanazawa/03-exterior.webp)
 
-Look for the brick wall and the gold lettering on the window. There is a wooden bench by the door and a planter full of greenery out front.
+It is a stylish but calm café, the kind of place to sit for a while rather than grab and go. Look for the brick wall and the gold lettering on the window. There is a wooden bench by the door and a planter full of greenery out front.
 
 ## Downstairs and upstairs
 
@@ -40,13 +40,13 @@ To find more seats, take the steel staircase. The walls along the stairs have wa
 
 ![A narrow steel staircase at Cafe Dumbo, with warm wall lamps, dried flowers and a wooden CAFE DUMBO sign](../../assets/articles/cafe-dumbo-kanazawa/04-stairs.webp)
 
-Upstairs is a much bigger room: a white-painted ceiling, red and black pendant lamps, mismatched wooden chairs and a row of windows. When I went, on a weekday, it was mostly full.
+Upstairs is a much bigger room: a white-painted ceiling, red and black pendant lamps, mismatched wooden chairs and a row of windows. When I went, on a weekday, it was mostly full. Upstairs is where I would sit if you want to relax: it is the calmest part of the café.
 
 ![The upstairs room at Cafe Dumbo: round wooden tables, red and black pendant lamps and large windows, with customers at most tables](../../assets/articles/cafe-dumbo-kanazawa/05-upstairs.webp)
 
 ## What to order
 
-I had a café latte and the bacon, egg and cheese bagel sandwich, at a counter by the window, looking out over the street. The bagel comes plain or "everything" (topped with seeds), and it is served cut in half in paper, so it is easy to eat.
+I had a café latte, which was really good, and the bacon, egg and cheese bagel sandwich, at a counter by the window, looking out over the street. The bagel comes plain or "everything" (topped with seeds), and it is served cut in half in paper, so it is easy to eat.
 
 Prices from the menu on the day I went:
 
@@ -68,6 +68,8 @@ Yes. The menu is in English with Japanese underneath, so you can read everything
 ![The Cafe Dumbo menu in a frame by the door, listing coffee, espresso drinks, bagel sandwiches and other drinks in English and Japanese](../../assets/articles/cafe-dumbo-kanazawa/02-menu.webp)
 
 The menu is posted outside by the entrance, so you can check it before you go in. Even the notice on the stairs about seats is in English.
+
+Most customers are Japanese (about seven in ten when I went), with travelers dropping in as they walk by, so it feels like a local café rather than a tourist spot.
 
 If you want to try a little Japanese:
 

@@ -16,7 +16,7 @@ place:
   address: "1F, 2-4-35 Nagamachi, Kanazawa"
   access: "A short walk from Korinbo, in the Nagamachi area"
   priceRange: "About ¥700 for a latte, ¥1,500–1,600 for lunch"
-  payment: "PayPay and a card reader at the counter (which cards are accepted is unverified)"
+  payment: "Cash, cards and PayPay"
   hours: "9:00–18:00, per the café's Instagram (other listings differ)"
   closed: "December 31 and January 1, per Instagram (some listings say Tuesdays)"
   website: "https://www.instagram.com/moron__cafe/"
@@ -42,7 +42,7 @@ Next to the till is an old glass case of baked goods. On the day I went it had m
 
 ## What to order
 
-I had an iced café latte. The coffee menu is long:
+I had an iced café latte, and it was really good. The house blend is Colombian, Kenyan and Brazilian beans, and the espresso leans a little to the bitter side, which stands up well to the milk. The coffee menu is long:
 
 | | Price (tax included) |
 |---|---|
@@ -56,13 +56,13 @@ I had an iced café latte. The coffee menu is long:
 | Chicken curry / omelet curry | ¥1,580 |
 | Sandwich plate | ¥1,550 |
 
-You can change to soy milk (+¥100) or oat milk (+¥140), or add an extra shot (+¥250). There is also juice, and Corona and Heineken (¥950).
+You can change to soy milk (+¥100) or oat milk (+¥140), or add an extra shot (+¥250). There is also juice, and Corona and Heineken (¥950). The café also prepares vegan food, and the cookies by the till are vegan too.
 
 **One rule to know:** if you order a baked item, each person also has to order a drink. The menu says this in English too.
 
 ## Can you get by in English?
 
-Yes. The menu is in English in big letters, with small Japanese underneath, and the muffin labels are handwritten in English.
+Yes. The menu is in English in big letters, with small Japanese underneath, and the muffin labels are handwritten in English. When I went, about eight in ten customers were from overseas, so you will not be the only one ordering in English. You can pay with cash, a card or PayPay.
 
 ![The MORON CAFE menu on a clipboard, with coffee, tea, juice, beer, food and bakes listed in English with prices](../../assets/articles/moron-cafe-kanazawa/03-menu.webp)
 

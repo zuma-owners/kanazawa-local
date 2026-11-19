@@ -46,7 +46,7 @@ places:
     address: "1F, 2-4-35 Nagamachi, Kanazawa"
     access: "A short walk from Korinbo, in the Nagamachi area"
     priceRange: "About ¥700 for a latte, ¥1,500–1,600 for lunch"
-    payment: "PayPay and a card reader at the counter (which cards are accepted is unverified)"
+    payment: "Cash, cards and PayPay"
     hours: "9:00–18:00, per the café's Instagram (other listings differ)"
     closed: "December 31 and January 1, per Instagram (some listings say Tuesdays)"
     website: "https://www.instagram.com/moron__cafe/"
@@ -70,6 +70,8 @@ The room itself is like nowhere else I know in the city. The ceiling is covered 
 
 ![A wall of vinyl record shelves at Kissa Bongo, with two turntables and a DJ mixer below](../../assets/articles/kanazawa-local-cafes-english/2026-11-13-bongo-05.webp)
 
+It feels like a hideaway: calm, a little hidden, and easy to lose an hour in. The records are the point of the place, and when I went the music playing was reggae and similar.
+
 During the day it is a *kissa*, a Japanese-style café. In the evening the same room turns into a music bar, which explains the shelves of gin and whisky bottles behind the counter.
 
 ![Craft gin and other bottles on the counter at Kissa Bongo, in front of record shelves and dried flowers](../../assets/articles/kanazawa-local-cafes-english/2026-11-13-bongo-04.webp)
@@ -78,7 +80,7 @@ I ordered a hot sandwich and an iced coffee. The hot sandwich was ¥900, and the
 
 ### Can you get by in English?
 
-Easily. The owner is American, grew up in Japan, and speaks both English and Japanese, so you can just ask about the menu or the records in English. I think the menu had English on it as well, though I didn't look closely, and with the owner right there it hardly matters.
+Easily. The owner is friendly, American, grew up in Japan, and speaks both English and Japanese, so you can just ask about the menu or the records in English. I think the menu had English on it as well, though I didn't look closely, and with the owner right there it hardly matters.
 
 If you want to try a little Japanese anyway, this one works anywhere:
 
@@ -96,11 +98,11 @@ DUMBO is a neighborhood in Brooklyn, New York, and Cafe Dumbo takes the name ser
 
 ![A café latte with heart latte art next to a bacon, egg and cheese bagel sandwich on a wooden window counter](../../assets/articles/cafe-dumbo-kanazawa/08-bagel-latte-b.webp)
 
-I had a café latte and the bacon, egg and cheese bagel (about ¥850), at a counter by the window. Downstairs is small, but a steel staircase leads up to a much bigger, brighter room.
+It is a stylish but calm café. I had a café latte, which was really good, and the bacon, egg and cheese bagel (about ¥850), at a counter by the window. Downstairs is small, but a steel staircase leads up to a much bigger, brighter room, and that is the most relaxing place to sit.
 
 ### Can you get by in English?
 
-Yes. The menu is in English with Japanese underneath, and it is posted outside the door, so you can decide before you go in.
+Yes. The menu is in English with Japanese underneath, and it is posted outside the door, so you can decide before you go in. Most customers are Japanese (about seven in ten when I went), with travelers dropping in as they pass.
 
 ### Local tip
 
@@ -113,11 +115,11 @@ MORON CAFE is in Nagamachi, the old samurai district a short walk from Korinbo. 
 
 ![An iced café latte in a glass with a copper straw on a wooden table at MORON CAFE](../../assets/articles/moron-cafe-kanazawa/04-iced-latte-a.webp)
 
-I had an iced latte (¥680). There are homemade muffins (¥550), vegan cookies and curry for lunch. One rule: if you order a baked item, each person also orders a drink.
+I had an iced latte (¥680), and it was really good: the blend is Colombian, Kenyan and Brazilian, with espresso on the slightly bitter side. There are homemade muffins (¥550), vegan cookies, vegan dishes and curry for lunch. One rule: if you order a baked item, each person also orders a drink.
 
 ### Can you get by in English?
 
-Yes. The menu is in English in big letters, with small Japanese underneath, and the muffin labels are handwritten in English.
+Yes. The menu is in English in big letters, with small Japanese underneath, and the muffin labels are handwritten in English. About eight in ten customers were from overseas when I went. Cash, cards and PayPay all work.
 
 ### Local tip
 
