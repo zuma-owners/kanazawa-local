@@ -33,7 +33,7 @@ places:
     address: "2-11-6 Korinbo, Kanazawa (on Seseragi Street)"
     access: "A short walk from Korinbo bus stop"
     priceRange: "About ¥1,500 for a bagel sandwich and a latte"
-    payment: "(unverified)"
+    payment: "Credit cards and PayPay"
     hours: "Weekdays 8:30–18:00, weekends 11:30–18:00, per the Seseragi Street shop listing (online listings differ)"
     closed: "Tuesdays and some irregular days"
     website: "https://seseragi-st.com/cafe_dumbo.html"
