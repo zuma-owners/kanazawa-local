@@ -1,16 +1,16 @@
 ---
-# 下書き（draft: true）。Bongoは掲載OK・本文完成。残り2軒（SHIKA、リスパイス）が入るまで本番には出ない。
-# 本文中の【ZUMA: …】は確認・追記が必要な箇所。公開前にすべて消す。
 title: "3 Local Cafés in Kanazawa Where You Can Order in English"
-subtitle: "Small, independent places I actually go to, starting with a record café on the fifth floor."
-description: "Three independent cafés in Kanazawa where ordering in English is easy, chosen by a local English coach. First up: Kissa Bongo, a fifth-floor record café."
+subtitle: "A record café on the fifth floor, a Brooklyn-style bagel spot and a big bright café near the samurai district."
+description: "Three independent cafés in Kanazawa where ordering in English is easy, chosen by a local English coach: Kissa Bongo, Cafe Dumbo and MORON CAFE."
 pubDate: 2026-11-13
+updatedDate: 2026-11-19
 category: eat-drink
 tags: ["cafe", "local favorites"]
 heroImage: "../../assets/articles/kanazawa-local-cafes-english/2026-11-13-bongo-01.webp"
 heroAlt: "Inside Kissa Bongo: wicker armchairs by tall windows, a long dark counter with bar stools, and shelves of vinyl records under a green ceiling"
-guideSummary: "Three independent cafés where ordering in English is easy, including Kissa Bongo, a fifth-floor record café in Kakinokibatake."
-draft: true
+guideSummary: "Three independent cafés where ordering in English is easy: Kissa Bongo (Kakinokibatake), Cafe Dumbo (Korinbo) and MORON CAFE (Nagamachi)."
+draft: false
+related: ["cafe-dumbo-kanazawa", "moron-cafe-kanazawa"]
 places:
   - name: "Kissa Bongo"
     nameJa: "喫茶 Bongo"
@@ -26,11 +26,37 @@ places:
     website: "https://www.instagram.com/kissa_bongo/"
     verified: false
     checkedDate: 2026-11-13
+  - name: "Cafe Dumbo"
+    nameJa: "CAFE DUMBO"
+    area: korinbo
+    type: CafeOrCoffeeShop
+    address: "2-11-6 Korinbo, Kanazawa (on Seseragi Street)"
+    access: "A short walk from Korinbo bus stop"
+    priceRange: "About ¥1,500 for a bagel sandwich and a latte"
+    payment: "(unverified)"
+    hours: "Weekdays 8:30–18:00, weekends 11:30–18:00, per the Seseragi Street shop listing (online listings differ)"
+    closed: "Tuesdays and some irregular days"
+    website: "https://seseragi-st.com/cafe_dumbo.html"
+    verified: false
+    checkedDate: 2026-11-19
+  - name: "MORON CAFE"
+    nameJa: "MORON CAFE（モランカフェ）"
+    area: korinbo
+    type: CafeOrCoffeeShop
+    address: "1F, 2-4-35 Nagamachi, Kanazawa"
+    access: "A short walk from Korinbo, in the Nagamachi area"
+    priceRange: "About ¥700 for a latte, ¥1,500–1,600 for lunch"
+    payment: "PayPay and a card reader at the counter (which cards are accepted is unverified)"
+    hours: "9:00–18:00, per the café's Instagram (other listings differ)"
+    closed: "December 31 and January 1, per Instagram (some listings say Tuesdays)"
+    website: "https://www.instagram.com/moron__cafe/"
+    verified: false
+    checkedDate: 2026-11-19
 ---
 
 Kanazawa has plenty of famous cafés, the kind with a line out the door and a matcha parfait on every table. This list is not about those. These are small, independent places where locals actually sit down, and where you can order without pointing and hoping for the best.
 
-【ZUMA: 2軒目・3軒目が決まったら、ここに3軒の共通点を1〜2文で】
+All three are independent, all three have menus you can read in English, and all three are within walking distance of Korinbo, so you could visit them in one day: breakfast at one, lunch at another, an afternoon coffee at the third.
 
 ## 1. Kissa Bongo: a record café on the fifth floor
 
@@ -64,10 +90,36 @@ If you want to try a little Japanese anyway, this one works anywhere:
 - **Day and night are different.** The café hours and the bar hours are not the same. Bongo is closed on Mondays, and it is worth checking the café's Instagram before you go.
 
 
-## 2. SHIKA
+## 2. Cafe Dumbo: Brooklyn coffee and bagels on Seseragi Street
 
-【ZUMA: SHIKAの取材後に追加】
+DUMBO is a neighborhood in Brooklyn, New York, and Cafe Dumbo takes the name seriously: the beans come from Brooklyn Roasting Company, and the food is built around bagels. It is a brick-front café on Seseragi Street, a quiet street along a small canal near Korinbo.
 
-## 3. 【リスパイス：英語表記は取材後に確認】
+![A café latte with heart latte art next to a bacon, egg and cheese bagel sandwich on a wooden window counter](../../assets/articles/cafe-dumbo-kanazawa/08-bagel-latte-b.webp)
 
-【ZUMA: リスパイスの取材後に追加（英語が通じるかも確認）】
+I had a café latte and the bacon, egg and cheese bagel (about ¥850), at a counter by the window. Downstairs is small, but a steel staircase leads up to a much bigger, brighter room.
+
+### Can you get by in English?
+
+Yes. The menu is in English with Japanese underneath, and it is posted outside the door, so you can decide before you go in.
+
+### Local tip
+
+- **Weekday mornings are best** for a bagel breakfast. Online listings give different hours, so check before you go.
+- Read more: [Cafe Dumbo: Brooklyn Coffee and Bagels on Kanazawa's Seseragi Street](/articles/cafe-dumbo-kanazawa/)
+
+## 3. MORON CAFE: a big, bright café in Nagamachi
+
+MORON CAFE is in Nagamachi, the old samurai district a short walk from Korinbo. It is one long, bright room with a high white ceiling, a clock hanging in the middle and mismatched chairs, and it opens at 9:00.
+
+![An iced café latte in a glass with a copper straw on a wooden table at MORON CAFE](../../assets/articles/moron-cafe-kanazawa/04-iced-latte-a.webp)
+
+I had an iced latte (¥680). There are homemade muffins (¥550), vegan cookies and curry for lunch. One rule: if you order a baked item, each person also orders a drink.
+
+### Can you get by in English?
+
+Yes. The menu is in English in big letters, with small Japanese underneath, and the muffin labels are handwritten in English.
+
+### Local tip
+
+- **Come early for the bakes.** Several items were sold out when I went.
+- Read more: [MORON CAFE: Iced Lattes and Muffins in Kanazawa's Nagamachi](/articles/moron-cafe-kanazawa/)
