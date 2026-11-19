@@ -35,7 +35,7 @@ These are the things that trip up first-time visitors most often.
 
 **Late morning: the 21st Century Museum.** It is a short walk from Kenrokuen. If it is not a Monday, see an exhibition. If it is, you can still walk through the free areas of the building.
 
-**Lunch: Omicho Market.** Kanazawa's main fresh market is a short bus ride from the museum area. It is the place to eat seafood at lunchtime, and in winter it is full of crab. See my guide to [crab season in Kanazawa](/articles/kanazawa-crab-season/) for what to look for.
+**Lunch: Omicho Market.** Kanazawa's main fresh market is a short bus ride from the museum area. It is the place to eat seafood at lunchtime, and in winter it is full of crab. See my guide to [crab season in Kanazawa](/articles/kanazawa-crab-season/) for what to look for, and my [Omicho Market guide](/articles/omicho-market-guide/) for hours, lockers and the best time to go.
 
 **Afternoon: Higashi Chaya district.** The old teahouse street, with its wooden lattice fronts, is the image most people have of Kanazawa. It gets busy in the middle of the day. Late afternoon is often more pleasant.
 
