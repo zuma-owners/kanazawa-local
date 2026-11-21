@@ -17,7 +17,7 @@ I teach English just outside Kanazawa, and this is the plan I would give a frien
 
 **From Tokyo**, the Hokuriku Shinkansen runs straight to Kanazawa Station. The fastest trains, called *Kagayaki*, take about two and a half hours. Slower trains on the same line take around three hours.
 
-**From Kyoto or Osaka**, the Shinkansen line now ends at Tsuruga, south of Kanazawa. You take the *Thunderbird* limited express to Tsuruga and change to the Shinkansen there. Check the current timetable on a route app before you travel.
+**From Kyoto or Osaka**, the Shinkansen line now ends at Tsuruga, south of Kanazawa. You take the *Thunderbird* limited express to Tsuruga and change to the Shinkansen there. Check the current timetable on a route app before you travel. My [guide to getting to Kanazawa](/articles/getting-to-kanazawa/) explains the change at Tsuruga step by step.
 
 Kanazawa Station itself is worth a minute. The big wooden gate in front of the East Exit is one of the most photographed things in the city, and you will walk right through it.
 
