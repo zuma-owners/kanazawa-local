@@ -23,7 +23,7 @@ If you search for "meet locals in Kanazawa", most of what you'll find are paid t
 
 ## The exchange events at my school
 
-I run [Regrandir English](https://regrandir.com/), a small English school in Nonoichi, the city right next to Kanazawa. Most of my students are beginners who want to use English, not just study it.
+I run [Regrandir English](https://regrandir.com/?from=kl), a small English school in Nonoichi, the city right next to Kanazawa. Most of my students are beginners who want to use English, not just study it.
 
 About once a month, the school holds an **international exchange event**. It is not a class. It is a relaxed get-together where local people and people from overseas spend time together and talk, in English and in Japanese, whichever works.
 

@@ -1,0 +1,76 @@
+---
+import { CONTACT_EMAIL, MEETUP_INSTAGRAM, SCHOOL, upcomingMeetups } from '../consts';
+import Base from '../layouts/Base.astro';
+const meetups = upcomingMeetups();
+---
+
+<Base
+	title="English Meetups in Kanazawa"
+	description="Meet locals in Kanazawa: casual English meetups, picnics and parties where Japanese learners and international visitors and residents talk over food and games."
+>
+	<div class="prose">
+		<p class="eyebrow">Meetups</p>
+		<h1>Meet locals at our English meetups</h1>
+		<p>
+			I run <a href={SCHOOL.link} rel="noopener">{SCHOOL.name}</a>, a small English school in Nonoichi, right next to Kanazawa. From time to time we hold casual
+			meetups where my Japanese students practice English with people from other countries. Travelers, students, people living and working in Ishikawa: everyone is welcome.
+		</p>
+		<p>No Japanese needed. My students are friendly beginners who are happy to show you around their city in English.</p>
+
+		<h2>Upcoming</h2>
+		{
+			meetups.length === 0 ? (
+				<p>No dates right now. Message us and we will let you know about the next one.</p>
+			) : (
+				meetups.map((m) => (
+					<section class="meetup">
+						<h3>{m.title}</h3>
+						<dl>
+							<dt>When</dt>
+							<dd>{m.when}</dd>
+							<dt>Where</dt>
+							<dd>{m.where}</dd>
+							<dt>Fee</dt>
+							<dd>{m.fee}</dd>
+						</dl>
+						<p class="small">{m.note}</p>
+					</section>
+				))
+			)
+		}
+
+		<h2>How to join</h2>
+		<p>Send a short message with your name and the event you would like to join:</p>
+		<ul>
+			<li>Instagram DM: <a href={MEETUP_INSTAGRAM} rel="noopener" target="_blank" data-cta="meetup-instagram">@regrandir_english_kanazawa</a></li>
+			<li>Email: <a href={`mailto:${CONTACT_EMAIL}?subject=English%20meetup`} data-cta="meetup-email">{CONTACT_EMAIL}</a></li>
+		</ul>
+		<p class="muted small">I read every message and will get back to you.</p>
+	</div>
+</Base>
+
+<style>
+	.meetup {
+		border: 1px solid var(--line);
+		border-left: 3px solid var(--accent);
+		background: var(--surface);
+		border-radius: 8px;
+		padding: 1rem 1.1rem;
+		margin: 1rem 0;
+	}
+	.meetup h3 {
+		margin-top: 0;
+	}
+	.meetup dl {
+		display: grid;
+		grid-template-columns: 4.5rem 1fr;
+		gap: 0.3rem 0.8rem;
+		margin: 0.5rem 0;
+	}
+	.meetup dt {
+		color: var(--muted, #9aa3b5);
+	}
+	.meetup dd {
+		margin: 0;
+	}
+</style>

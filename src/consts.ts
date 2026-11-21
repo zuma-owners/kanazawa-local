@@ -8,7 +8,7 @@ export const SITE_DESCRIPTION =
 export const AUTHOR = 'ZUMA';
 export const CONTACT_EMAIL = 'info.zuma.owners@gmail.com';
 export const AUTHOR_FULL = 'Kazumasa Matsuda (ZUMA)';
-export const SCHOOL = { name: 'Regrandir English', url: 'https://regrandir.com/' };
+export const SCHOOL = { name: 'Regrandir English', url: 'https://regrandir.com/', link: 'https://regrandir.com/?from=kl' };
 
 export type Category = { slug: string; name: string; blurb: string };
 // 記事のジャンル。frontmatter の category にこの slug を書く。/topics/<slug>/ に一覧ページができる。
@@ -44,3 +44,30 @@ export const AREAS: Area[] = [
 ];
 
 export const areaBySlug = (slug?: string) => AREAS.find((a) => a.slug === slug);
+
+// 交流イベント（/events/ と記事の最後の案内に出る）。date を過ぎたものは次のビルドで自動的に消える。
+// date が null のものは「日程は近日公開」として出す。新しいイベントが決まったらここに足す。
+export const MEETUP_INSTAGRAM = 'https://www.instagram.com/regrandir_english_kanazawa/';
+export type Meetup = { date: string | null; title: string; when: string; where: string; fee: string; note: string };
+export const MEETUPS: Meetup[] = [
+	{
+		date: '2026-11-28',
+		title: 'Autumn Leaves English Picnic',
+		when: 'Sat, Nov 28, 2026 / 2:00–5:00 PM',
+		where: 'Okuutatsuyama Kenmin Park, Kanazawa (indoors with board games if it rains)',
+		fee: '2,000 yen',
+		note: 'Bring a picnic mat, a drink and something warm. Food is not provided. Please sign up by Wed, Nov 25.',
+	},
+	{
+		date: null,
+		title: 'Christmas Party',
+		when: 'Late December 2026 (date and details coming soon)',
+		where: 'Kanazawa / Nonoichi area',
+		fee: 'TBA',
+		note: 'Message us if you would like to hear when the details are out.',
+	},
+];
+export const upcomingMeetups = (today = new Date()) => {
+	const d = today.toISOString().slice(0, 10);
+	return MEETUPS.filter((m) => m.date === null || m.date >= d);
+};

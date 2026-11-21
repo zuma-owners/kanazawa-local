@@ -1,0 +1,31 @@
+---
+import { upcomingMeetups } from '../consts';
+const next = upcomingMeetups().find((m) => m.date !== null);
+---
+
+<aside class="meetup-cta" aria-label="English meetups">
+	<p class="title">Want to meet locals?</p>
+	<p>
+		We hold casual English meetups in Kanazawa where Japanese learners and international visitors talk over food and games.
+		{next && <span> Next: <strong>{next.title}</strong>, {next.when}.</span>}
+		{' '}<a href="/events/" data-cta="article-meetup">See meetups</a>
+	</p>
+</aside>
+
+<style>
+	.meetup-cta {
+		border: 1px solid var(--line);
+		border-left: 3px solid var(--accent);
+		background: var(--surface-2);
+		border-radius: 8px;
+		padding: 1rem 1.1rem;
+		margin: 2rem 0 0;
+	}
+	.meetup-cta p {
+		margin: 0;
+	}
+	.meetup-cta .title {
+		font-weight: 700;
+		margin-bottom: 0.3rem;
+	}
+</style>

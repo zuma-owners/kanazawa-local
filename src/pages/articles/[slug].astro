@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import ArticleCard from '../../components/ArticleCard.astro';
 import FollowCta from '../../components/FollowCta.astro';
+import MeetupCta from '../../components/MeetupCta.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import PracticalInfo from '../../components/PracticalInfo.astro';
 import { AUTHOR, AUTHOR_FULL, SITE_TITLE, SITE_URL, areaBySlug, categoryBySlug } from '../../consts';
@@ -143,6 +144,7 @@ for (const p of places) {
 			)
 		}
 
+		<MeetupCta />
 		<FollowCta />
 	</article>
 </Base>
