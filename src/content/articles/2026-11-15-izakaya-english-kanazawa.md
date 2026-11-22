@@ -116,4 +116,6 @@ The last one is what you say on the way out. You don't have to, but staff always
 
 In my lessons, the thing that holds people back is usually not vocabulary. It is the fear of getting it wrong. The same goes for you here. Nobody in a Kanazawa izakaya expects perfect Japanese from a visitor. A clear *sumimasen* and a smile will get you a long way.
 
+For phrases you'll need in shops, cafés and taxis, see [Japanese Phrases for Restaurants, Shops and Taxis](/articles/japanese-phrases-restaurants-shops-taxis/).
+
 When you're ready for specific places, the [Kanazawa Nightlife Guide](/guide/) lists the bars and izakaya I have visited myself, area by area.
