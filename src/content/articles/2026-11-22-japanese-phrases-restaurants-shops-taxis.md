@@ -132,7 +132,7 @@ Screenshot this.
 
 ## A tip on pronunciation
 
-Japanese vowels are short and even: *a* as in "father," *i* as in "see," *u* as in "food," *e* as in "get," *o* as in "go." The final *u* in *desu* and *-masu* is almost silent, which is why I write "dess" and "mass." Say every syllable at the same speed and you will be understood, even if your accent is strong. In my lessons, the people who get understood are not the ones with perfect pronunciation. They are the ones who speak clearly and don't apologize first.
+Japanese vowels are short and even: *a* as in "father," *i* as in "see," *u* as in "food," *e* as in "get," *o* as in "go." The final *u* in *desu* and *-masu* is almost silent, which is why I write "dess" and "mass." Say every syllable at the same speed and you will be understood, even if your accent is strong. Speaking clearly matters much more than a perfect accent.
 
 ## Official links
 
