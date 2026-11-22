@@ -52,7 +52,7 @@ A few things to know about kani-men:
 - On days when the sea is rough and boats can't go out, there may be none at all.
 - Many places do not take reservations for it. It is first come, first served.
 
-If you see かに面 on an oden menu, order it while you can.
+If you see かに面 on an oden menu, order it while you can. For the rest of the pot, see my [guide to Kanazawa oden](/articles/kanazawa-oden-guide/).
 
 ## Where you will see crab
 
