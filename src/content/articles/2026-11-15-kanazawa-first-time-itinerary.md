@@ -76,7 +76,7 @@ For a short trip, there are two sensible choices:
 - **Near Kanazawa Station**, if you are arriving and leaving by train and want the easiest transfers.
 - **Downtown, around Korinbo and Katamachi**, if you want to walk to dinner and be close to the nightlife.
 
-Buses and taxis connect the two, so neither choice is wrong.
+Buses and taxis connect the two, so neither choice is wrong. My [where-to-stay guide](/articles/where-to-stay-kanazawa/) compares the areas in more detail.
 
 ## What to pack
 
