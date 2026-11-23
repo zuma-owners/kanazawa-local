@@ -37,7 +37,7 @@ These are the things that trip up first-time visitors most often.
 
 **Lunch: Omicho Market.** Kanazawa's main fresh market is a short bus ride from the museum area. It is the place to eat seafood at lunchtime, and in winter it is full of crab. See my guide to [crab season in Kanazawa](/articles/kanazawa-crab-season/) for what to look for, and my [Omicho Market guide](/articles/omicho-market-guide/) for hours, lockers and the best time to go.
 
-**Afternoon: Higashi Chaya district.** The old teahouse street, with its wooden lattice fronts, is the image most people have of Kanazawa. It gets busy in the middle of the day. Late afternoon is often more pleasant.
+**Afternoon: Higashi Chaya district.** The old teahouse street, with its wooden lattice fronts, is the image most people have of Kanazawa. It gets busy in the middle of the day. Late afternoon is often more pleasant. My [Higashi Chaya guide](/articles/higashi-chaya-district-guide/) covers the two teahouses you can go inside.
 
 **Evening:** If you are leaving, Kanazawa Station has places to eat before your train. If you can stay, read on.
 
