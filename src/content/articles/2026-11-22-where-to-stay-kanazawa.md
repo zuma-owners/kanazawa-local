@@ -71,7 +71,7 @@ The trade-off is convenience. It's further from the station and from Katamachi, 
 This is where Kanazawa is better prepared than many cities.
 
 - **Same-day delivery to your hotel.** The **Kanazawa Station Tourist Information Centre** runs a same-day baggage delivery service, part of the national "Hands-Free Travel" program. You buy a delivery ticket at the information counter, fill in a form, and leave your bags at the Hands-Free Travel counter. Your bags reach your hotel later that day. The centre is open 8:30 to 20:00, all year. You can't choose a delivery time, the cut-off time depends on where you're staying, and the counter can get busy, so go early. Valuables, fragile items and food are not accepted. Ask at the counter about the fee for your bags.
-- **Coin lockers.** According to the tourism association, Kanazawa Station has nearly **900 coin lockers** in five spots, several of them open 24 hours, plus a staffed left-luggage counter in the daytime. Lockers take cash and IC cards like Suica and ICOCA.
+- **Coin lockers.** According to the tourism association, Kanazawa Station has nearly **900 coin lockers** in five spots, several of them open 24 hours, plus a staffed left-luggage counter in the daytime. Lockers take cash and IC cards like Suica and ICOCA. My [Kanazawa Station guide](/articles/kanazawa-station-guide/) lists where they are and what they cost.
 
 So if you're staying downtown, you can drop your bags at the station, go straight out sightseeing, and find them waiting at your hotel in the evening.
 
