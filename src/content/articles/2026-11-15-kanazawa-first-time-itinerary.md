@@ -31,7 +31,7 @@ These are the things that trip up first-time visitors most often.
 
 ## If you have one day
 
-**Morning: Kenrokuen and Kanazawa Castle Park.** Start at the garden as early as you can. It is far calmer in the first hours. Kanazawa Castle Park is right next to it, across a bridge, so you can walk from one to the other.
+**Morning: Kenrokuen and Kanazawa Castle Park.** Start at the garden as early as you can. It is far calmer in the first hours. [Kanazawa Castle Park](/articles/kanazawa-castle-park-guide/) is right next to it, across a bridge, so you can walk from one to the other.
 
 **Late morning: the 21st Century Museum.** It is a short walk from Kenrokuen. If it is not a Monday, see an exhibition. If it is, you can still walk through the free areas of the building.
 
