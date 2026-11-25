@@ -53,7 +53,7 @@ Do the one-day plan, but split it so nothing is rushed, and add an evening.
 **Day 2**
 - Early morning at **Kenrokuen**, then **Kanazawa Castle Park**.
 - Late morning at the **21st Century Museum**.
-- Afternoon: the samurai district (Nagamachi) or the temple district across the Sai River, where Myoryuji is, if you booked a tour.
+- Afternoon: the [samurai district (Nagamachi)](/articles/nagamachi-samurai-district-guide/) or the temple district across the Sai River, where Myoryuji is, if you booked a tour.
 
 If ordering dinner in Japanese worries you, read [how to order at an izakaya](/articles/izakaya-english-kanazawa/) before your first night. Ten short phrases cover almost everything.
 
