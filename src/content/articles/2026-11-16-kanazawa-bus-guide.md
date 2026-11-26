@@ -56,7 +56,7 @@ Keep the stop names from this table handy (a screenshot works), so you can match
 - **IC cards:** the Loop Bus accepts nationwide IC cards such as **Suica, PASMO and ICOCA**, as well as Hokutetsu's local card, ICa. Tap the reader when you get on and again when you get off.
 - **Credit card touch payment:** Visa, Mastercard, JCB, AMEX, Diners, Discover and UnionPay contactless cards work on the Loop Bus and on Hokutetsu's local buses in the Kanazawa area. Tap when you get on and when you get off, just like an IC card.
 
-One important difference: **regular Hokutetsu city buses (not the Loop Bus) do not accept Suica-type cards.** On those, use cash, a contactless credit card, ICa or the 1-day pass.
+One important difference: **regular Hokutetsu city buses (not the Loop Bus) do not accept Suica-type cards.** On those, use cash, a contactless credit card, ICa or the 1-day pass. For cash, cards and IC cards around the rest of the city, see my [guide to paying in Kanazawa](/articles/paying-in-kanazawa/).
 
 ## The 1-day pass
 
