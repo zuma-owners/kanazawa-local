@@ -80,7 +80,7 @@ Buses and taxis connect the two, so neither choice is wrong. My [where-to-stay g
 
 ## What to pack
 
-Kanazawa has a reputation for rain, and locals have a saying about never forgetting your umbrella, even if you forget your lunch. Pack a compact umbrella whatever the season. In winter, add waterproof shoes. Snow and slush are common, and the old streets can be slippery.
+Kanazawa has a reputation for rain, and locals have a saying about never forgetting your umbrella, even if you forget your lunch. Pack a compact umbrella whatever the season, and see my [rainy-day guide](/articles/rainy-day-kanazawa/) for indoor plans. In winter, add waterproof shoes. Snow and slush are common, and the old streets can be slippery.
 
 ## A last tip from a local
 
