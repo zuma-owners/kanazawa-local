@@ -98,6 +98,7 @@ The last one is small talk. Say it to a shop owner or the person next to you at 
 - Check **exhibition-change closures** and **New Year** dates on each museum's site.
 - Lunch under a roof at **Omicho Market**, dinner of oden.
 - Carry an umbrella, wear waterproof shoes, and use the umbrella stand at the door.
+- Want to leave the city? A hot-spring bath works in any weather: see the [Kaga Onsen day trip](/articles/kaga-onsen-day-trip/).
 
 Official sites: [21st Century Museum](https://www.kanazawa21.jp/), [D.T. Suzuki Museum](https://www.kanazawa-museum.jp/daisetz/), [National Crafts Museum](https://www.momat.go.jp/craft-museum/), [Ishikawa Prefectural Museum of Art](https://www.ishibi.pref.ishikawa.jp/), [Yasue Gold Leaf Museum](https://www.kanazawa-museum.jp/kinpaku/).
 
