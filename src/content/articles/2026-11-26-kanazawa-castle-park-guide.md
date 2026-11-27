@@ -81,7 +81,7 @@ The park has several gates, each with its own nearest bus stop (from the officia
 | Nezumita Gate (via Oyama Shrine) | Minamicho / Oyama Shrine (南町・尾山神社) | 5 min |
 | Kuromon (toward the market) | Musashigatsuji / Omicho Market (武蔵ヶ辻・近江町市場) | 7 min |
 
-A route that works: enter through the **Ishikawa Gate** after Kenrokuen, walk through to the paid towers, then leave through **Gyokusen-inmaru** for the [21st Century Museum](/articles/21st-century-museum-guide/), or through **Nezumita Gate** toward Oyama Shrine and the [Nagamachi samurai district](/articles/nagamachi-samurai-district-guide/). Coming from [Omicho Market](/articles/omicho-market-guide/), the Kuromon entrance is closest. My [bus guide](/articles/kanazawa-bus-guide/) explains which buses stop where.
+A route that works: enter through the **Ishikawa Gate** after Kenrokuen, walk through to the paid towers, then leave through **Gyokusen-inmaru** for the [21st Century Museum](/articles/21st-century-museum-guide/), or through **Nezumita Gate** toward [Oyama Shrine](/articles/oyama-shrine-guide/) and the [Nagamachi samurai district](/articles/nagamachi-samurai-district-guide/). Coming from [Omicho Market](/articles/omicho-market-guide/), the Kuromon entrance is closest. My [bus guide](/articles/kanazawa-bus-guide/) explains which buses stop where.
 
 ## Say it in Japanese
 
