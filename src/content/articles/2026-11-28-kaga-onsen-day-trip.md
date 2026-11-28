@@ -109,7 +109,7 @@ Don't expect hotel-style amenities: the Yamashiro page, for example, says Sōyu 
 4. Back on the loop to **Yamashiro** for the old bathhouse.
 5. Bus back to Kaga-Onsen Station and train to Kanazawa for dinner.
 
-In winter, add some time for snow. My [winter guide](/articles/kanazawa-winter-guide/) covers what to wear, and a hot bath is one of the best things to do on a cold, grey day. It also works as a plan B for bad weather, along with the ideas in my [rainy day guide](/articles/rainy-day-kanazawa/). If you are choosing between day trips, compare this with the [Shirakawa-go day trip](/articles/shirakawa-go-day-trip/), which takes most of a day by bus.
+In winter, add some time for snow. My [winter guide](/articles/kanazawa-winter-guide/) covers what to wear, and a hot bath is one of the best things to do on a cold, grey day. It also works as a plan B for bad weather, along with the ideas in my [rainy day guide](/articles/rainy-day-kanazawa/). If you are choosing between day trips, compare this with the [Shirakawa-go day trip](/articles/shirakawa-go-day-trip/), which takes most of a day by bus, or with the [Fukui Dinosaur Museum day trip](/articles/fukui-dinosaur-museum-day-trip/), a little further down the same Shinkansen line.
 
 ## Official links
 
